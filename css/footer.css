@@ -1,0 +1,47 @@
+#features{
+    padding-left: 12rem;
+    box-sizing: content-box;
+  
+  
+  }
+  
+  #features:after{
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+  
+  #features > div{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 25%;
+    min-height: 100%;
+  
+  }
+  
+  #footer{
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem ;
+    padding-left: 37rem;
+    color: white;
+  }
+  
+  .columns {
+    float: left;
+    width: 25rem;
+  }
+  
+  /* Clear floats after the columns */
+  .rows{
+    display:-webkit-box;
+    clear: both;
+  }
+  
+  ul{
+    padding-top: 0.5rem;
+  }
+  h5{
+    font-size: 1.5rem;
+  }
+  
